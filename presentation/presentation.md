@@ -28,7 +28,7 @@ Exemples
 
 ---
 
-  Type de polymorphisme
+  Types de polymorphisme
 
   * Polymorphisme ad-hoc -> sur-charge de fonction/opérateur
   * Polymorphisme paramétrique -> Type Générique
@@ -36,7 +36,7 @@ Exemples
   * Polymorphisme structurel -> Polymorphisme par duck typing
 
 
-Type de polymorphisme [wikipedia](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
+Types de polymorphisme [wikipedia](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
 
 ---
 
@@ -46,7 +46,7 @@ Code
 
 [Crédit photo](https://www.piqsels.com/en/public-domain-photo-srgvo )
 
-En exercice
+En exercise
 -------------
 
 <pre>
@@ -57,8 +57,8 @@ Shape
 </pre>
 
 Implementer:
-- Calcul d'air dans chacune des classes
-- Calculateur de périmètre (classe distinct)
+- Calcul d'aire dans chacune des classes
+- Calculateur de périmètre (classe distincte)
 
 ---
 
