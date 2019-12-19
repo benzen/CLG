@@ -1,29 +1,38 @@
 using System;
 
-public class A {
+public class A
+{
   protected int counter;
-  public A(){
+  public A()
+  {
     counter = 0;
   }
-  public int GetCounter(){
+  public int GetCounter()
+  {
     return counter;
   }
-  public void IncCounter(){
+  public void IncCounter()
+  {
     counter = counter + 1;
   }
 }
 
-public class B : A {
+public class B : A
+{
 }
 
-public class C : A {
-  public C(){
+public class C : A
+{
+  public C()
+  {
     counter = 10;
   }
 }
 
-public class Example {
-    public static void Main(string[] args){
+public class Example
+{
+    public static void Main(string[] args)
+    {
         var a = new B();
         IncCounter(a);
         Console.WriteLine(a.GetCounter());
@@ -35,7 +44,8 @@ public class Example {
         // will print 11
     }
 
-    static private void IncCounter(A a){
+    static private void IncCounter(A a)
+    {
       a.IncCounter();
     }
 }

@@ -1,22 +1,28 @@
 using System;
 
-public class A {
+public class A
+{
   protected String value;
 
-  public A(){
+  public A()
+  {
     this.value = "A";
   }
 
-  public String GetValue() {
+  public String GetValue()
+  {
      return this.value;
   }
 }
 
-public class B : A {
-  public B(){
+public class B : A
+{
+  public B()
+  {
     this.value = "B";
   }
-  public void printSomething(){
+  public void printSomething()
+  {
     Console.WriteLine("Something");
   }
 }

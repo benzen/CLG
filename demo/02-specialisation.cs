@@ -1,13 +1,17 @@
 using System;
 
-public class A {
-  public void PrintSomething() {
+public class A
+{
+  public void PrintSomething()
+  {
      Console.WriteLine("A: They asked me to print, so here it is");
   }
 }
 
-public class B : A {
-  public new void PrintSomething(){
+public class B : A
+{
+  public new void PrintSomething()
+  {
     Console.WriteLine("B: I'me better than thoses A instances.");
   }
 }

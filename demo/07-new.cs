@@ -1,32 +1,41 @@
 using System;
 
-public class A {
+public class A
+{
   protected int counter;
-  public A(){
+  public A()
+  {
     counter = 0;
   }
-  public int GetCounter(){
+  public int GetCounter()
+  {
     return counter;
   }
-  public void IncCounter(){
+  public void IncCounter()
+  {
     counter = counter + 1;
   }
 }
 
-public class B : A {
+public class B : A
+{
 }
 
-public class C : A {
-  public C(){
+public class C : A
+{
+  public C()
+  {
     counter = 10;
   }
-  public new void IncCounter() {
+  public new void IncCounter()
+  {
     base.IncCounter();
     Console.WriteLine("C: My new value is " + this.counter);
   }
 }
 
-public class Example {
+public class Example
+{
     public static void Main(string[] args)
     {
         A a = new B();

@@ -1,24 +1,31 @@
 using System;
 
-public class A {
+public class A
+{
   protected int counter;
-  public A(){
+  public A()
+  {
     counter = 0;
   }
-  public int GetCounter(){
+  public int GetCounter()
+  {
     return counter;
   }
-  public void IncCounter(){
+  public void IncCounter()
+  {
     counter = counter + 1;
   }
 
 }
 
-public class B : A {
+public class B : A
+{
 }
 
-public class C : A {
-  public C(){
+public class C : A
+{
+  public C()
+  {
     counter = 10;
   }
 }
