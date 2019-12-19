@@ -46,8 +46,6 @@ Code
 
 [Crédit photo](https://www.piqsels.com/en/public-domain-photo-srgvo )
 
----
-
 En exercice
 -------------
 
