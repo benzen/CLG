@@ -2,7 +2,7 @@ using System;
 
 public class A
 {
-  public void PrintSomething()
+  public virtual void PrintSomething()
   {
      Console.WriteLine("A: They asked me to print, so here it is");
   }
@@ -10,18 +10,22 @@ public class A
 
 public class B : A
 {
-  public new void PrintSomething()
+  public override void PrintSomething()
   {
     Console.WriteLine("B: I'me better than thoses A instances.");
   }
 }
 
-public class Main
+public class Example
 {
     public static void Main(string[] args)
     {
-        A a = new B();
-        a.PrintSomething();
+        B b = new B();
+        b.PrintSomething();
+        // Will print "B: I'm better than thoses A instances."
+
+        A ab = new B();
+        ab.PrintSomething();
         // Will print "B: I'm better than thoses A instances."
     }
 }

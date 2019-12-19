@@ -1,6 +1,9 @@
 Polymorphisme par héritage
 ======================================
 
+Benjamin Dreux
+<a href="https://github.com/benzen">github.com/benzen</a>
+
 ---
 
 Requis

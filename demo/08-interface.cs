@@ -23,7 +23,8 @@ public class B : A
   }
 }
 
-public class C : A {
+public class C : A
+{
   private int counter;
   public C()
   {
