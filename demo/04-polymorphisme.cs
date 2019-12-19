@@ -11,7 +11,6 @@ public class A {
   public void IncCounter(){
     counter = counter + 1;
   }
-
 }
 
 public class B : A {
@@ -23,10 +22,8 @@ public class C : A {
   }
 }
 
-public class Example
-{
-    public static void Main(string[] args)
-    {
+public class Example {
+    public static void Main(string[] args){
         var a = new B();
         IncCounter(a);
         Console.WriteLine(a.GetCounter());
