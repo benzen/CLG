@@ -36,8 +36,7 @@ Exemples
   * Polymorphisme structurel -> Polymorphisme par duck typing
 
 
-Type de polymorphisme [voir wikipedia](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
-
+Type de polymorphisme [wikipedia](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
 
 ---
 
@@ -46,3 +45,23 @@ Code
 <img src="./images/java.jpg" alt="code" width="700"/>
 
 [Crédit photo](https://www.piqsels.com/en/public-domain-photo-srgvo )
+
+---
+
+En exercice
+-------------
+
+<pre>
+Shape
+|-> Square
+|-> Circle
+|-> Rectangle
+</pre>
+
+Implementer:
+- Calcul d'air dans chacune des classes
+- Calculateur de périmètre (classe distinct)
+
+---
+
+Questions ?
